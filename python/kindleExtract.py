@@ -13,7 +13,7 @@ class KindleExtract():
         """检测Kindle的Clippings文件"""
         username = getpass.getuser()
         kindle_path = ""
-        try:
+        try:
             if 'Kindle' in os.listdir("/media/"+username):
                 kindle_path = "/media/"+username+"/Kindle"
                 print u"检测到您的Kindle"
@@ -72,3 +72,6 @@ class KindleExtract():
 if __name__ == "__main__":
     ke = KindleExtract()
     ke.get_data(kindle_path="clip.txt")
+    
+# form http://www.cnblogs.com/taceywong/p/5460215.html
+# Not original
