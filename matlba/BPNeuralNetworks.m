@@ -1,5 +1,5 @@
 % 利用MATLAB 进行BP神经网络的预测（含有神经网络工具箱）
-%
+% 来源：https://blog.csdn.net/xgxyxs/article/details/53265318
 clc
  
 clear all
